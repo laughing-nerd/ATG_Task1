@@ -71,7 +71,7 @@ const NavBar = () => {
                   </div>
                   :
                   <Link href="/" className="nav-link active" aria-current="page" >
-                    <span>Create account. </span><span className="text-primary" data-bs-toggle="modal" data-bs-target="#signup">It's free!</span>
+                    <span>Create account. </span><span className="text-primary" data-bs-toggle="modal" data-bs-target="#signup">It&apos;s free!</span>
                   </Link>
 
               }
