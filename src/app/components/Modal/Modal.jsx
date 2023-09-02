@@ -1,6 +1,5 @@
 "use client"
 import { signIn } from "next-auth/react"
-import Link from "next/link";
 import "./Modal.css";
 import { useState } from "react";
 const Modal = () => {
@@ -23,14 +22,14 @@ const Modal = () => {
                         </svg>
                     </div>
 
-                    <h1 className="modal-title text-center fs-5 py-3 customHeader">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</h1>
+                    <h1 className="modal-title text-center fs-5 py-3 customHeader">Let&apos;s learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</h1>
 
                     <div className="d-flex justify-content-between px-5 my-4">
                         <div className="purpose">{type === "create" ? "Create Account" : "Sign In"}</div>
                         <div className="text-end purposeDynamic">
                             {type === "create"
                                 ? <span>Already have an account? <span className="text-primary pointer" onClick={() => setType("sign")}>Sign in</span></span>
-                                : <span>Don't have an account? <span className="text-primary pointer" onClick={() => setType("create")}>Create new for free</span></span>}
+                                : <span>Don&apos;t have an account? <span className="text-primary pointer" onClick={() => setType("create")}>Create new for free</span></span>}
                         </div>
                     </div>
 
