@@ -1,0 +1,42 @@
+.cardImage {
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.userName {
+    color: #000;
+    font-weight: 600;
+    border: none;
+    background: transparent;
+}
+.viewsMobile{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .share {
+        width: 18vw;
+        border-radius: 4px;
+        background: #F1F3F5;
+        padding: 5%;
+    }
+    .share::after {
+        content: "Share";
+        right: 0;
+    }
+    .viewsMobile{
+        display: block;
+        color: #495057;
+    }
+    .views{
+        display: none;
+    }
+    .locationDiv, .companyDiv, .dateDiv{
+        font-size: 0.85rem;
+    }
+}

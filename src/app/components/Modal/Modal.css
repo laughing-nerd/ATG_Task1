@@ -1,0 +1,75 @@
+.customHeader {
+    background: #EFFFF4;
+    color: #008A45;
+}
+.purpose{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.purposeDynamic{
+    font-size: 1rem;
+}
+.pointer{
+    cursor: pointer;
+}
+.name,
+.email,
+.password,
+.confirmPassword {
+    border: 1px solid #D9D9DB !important;
+    outline: none;
+    background: #F7F8FA !important;
+    color: #8A8A8A !important;
+    padding: 2%;
+}
+
+.name {
+    width: 50%;
+}
+
+.email,
+.password,
+.confirmPassword {
+    width: 100%;
+}
+.formButton{
+    font-weight: 600;
+    padding: 2%;
+    background: #2F6CE5;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.passwordDiv{
+    position: relative;
+}
+.eyeIcon{
+    position: absolute;
+    right: 3%;
+    bottom: 25%;
+    cursor: pointer;
+}
+.socialLogin{
+    border-radius: 2px;
+    border: 0.6px solid #D9D9DB;
+    padding: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    width: 100%;
+    cursor: pointer;
+}
+.forgot {
+    cursor: pointer;
+    font-weight: 500;
+}
+.terms{
+    margin-top: auto;
+    font-size: 0.8rem;
+}
+
+.closeBtn{
+    position: absolute;
+    right: -0.8rem;
+    top: -3rem;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.purpose {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.formButton {
+    font-weight: 600;
+    background: #2F6CE5;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.name, .email,
+.password,
+.confirmPassword {
+    border: 1px solid #D9D9DB;
+    background: #F7F8FA;
+
+}
+
+.footerText {
+
+    font-weight: 500 !important;
+
+}

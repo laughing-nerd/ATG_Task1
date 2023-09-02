@@ -1,0 +1,23 @@
+.navBarCustom{
+    background: #fff !important;
+}
+.toggleBtn, .toggleBtn:focus {
+    outline: none !important;
+    border: none !important;
+}
+.offcanvasCustom{
+    height: 65vh !important;
+}
+@media(min-width: 769px) and (max-width: 991px){
+    .navBarCustom{
+        background: transparent !important;
+        width: 10% !important;
+    }
+}
+
+@media (max-width: 768px){
+    .navBarCustom{
+        background: transparent !important;
+        width: 10% !important;
+    }
+}

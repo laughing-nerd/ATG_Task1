@@ -1,0 +1,88 @@
+.main1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.main1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    background: #E0E0E0;
+    bottom: -6px;
+    left: 0;
+
+}
+.main2{
+    display: none;
+}
+.posts{
+    font-weight: 700;
+}
+.filter{
+    border-radius: 4px;
+background: #F1F3F5;
+padding: 2%;
+}
+
+.listDiv {
+    width: 50%;
+}
+.subNavList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.subNavList li {
+    cursor: pointer;
+    font-weight: 400;
+    color: #8A8A8A
+}
+.subNavList li:first-child{
+    position: relative;
+    color: #111;
+}
+.subNavList li:first-child::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -15px;
+    left: 0;
+    background: #111;;
+}
+.btnDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobileJoinGroup{
+    display: none;
+}
+
+@media (max-width: 768px)
+{
+    .main1{
+        display: none;
+    }
+    .main2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobileJoinGroup{
+        display: block;
+        position: absolute;
+        top: 1%;
+        right: 1%;
+        z-index: 999;
+    }
+    .btn:hover {
+        background-color: inherit !important;
+        color: #fff !important;
+    }
+    
+}
