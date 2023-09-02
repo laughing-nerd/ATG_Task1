@@ -1,5 +1,5 @@
 "use client";
-import "bootstrap/dist/js/bootstrap"
+import "../../../../node_modules/bootstrap/dist/js/bootstrap";
 import "./Cards.css";
 
 const Cards = (props) => {
