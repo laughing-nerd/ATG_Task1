@@ -1,8 +1,11 @@
 "use client";
-import "../../../../node_modules/bootstrap/dist/js/bootstrap";
+import { useEffect } from "react";
 import "./Cards.css";
 
 const Cards = (props) => {
+    useEffect(()=>{
+        import("bootstrap/dist/js/bootstrap")
+    },[])
     return (
         <div class="card mb-3">
             {
